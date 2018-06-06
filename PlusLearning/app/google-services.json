@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1198664007",
+    "firebase_url": "https://pluslearning-c51a1.firebaseio.com",
+    "project_id": "pluslearning-c51a1",
+    "storage_bucket": "pluslearning-c51a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1198664007:android:58e154494e424378",
+        "android_client_info": {
+          "package_name": "pluslearning.bailiwick.rajesh.com.pluslearning"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1198664007-frof6en3q5e7f5dll65fgu6astjvgh1j.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "1198664007-frof6en3q5e7f5dll65fgu6astjvgh1j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwTL4LytX9kElWcL5NclSpSm4mezJGJN8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
