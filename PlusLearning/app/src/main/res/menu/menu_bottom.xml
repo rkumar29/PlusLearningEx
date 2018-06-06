@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/item_syllabus"
+        android:title="@string/syllabus"
+        android:icon="@android:drawable/ic_menu_delete"
+        app:showAsAction="ifRoom|withText">
+    </item>
+    <item android:id="@+id/item_notice_board"
+        app:showAsAction="ifRoom|withText"
+        android:title="@string/notice_board"
+        android:icon="@android:drawable/ic_menu_delete">
+    </item>
+    <item android:id="@+id/item_faq"
+        app:showAsAction="always|withText"
+        android:title="@string/faq"
+        android:icon="@android:drawable/ic_menu_delete">
+    </item>
+    <item android:id="@+id/item_referral"
+        app:showAsAction="always|withText"
+        android:title="@string/referral"
+        android:icon="@android:drawable/ic_menu_delete">
+    </item>
+
+</menu>

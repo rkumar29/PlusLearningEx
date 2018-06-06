@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/bg_white"
+    android:weightSum="2">
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margin_4"
+        android:gravity="center"
+        android:textSize="11sp"
+        android:layout_weight="1"
+        android:text="2:00PM - 3:00PM"/>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/light_gray"/>
+
+    <TextView
+        android:id="@+id/tv_subject"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margin_4"
+        android:gravity="center"
+        android:textSize="11sp"
+        android:layout_weight="1"
+        android:text="Mathematics"/>
+
+</LinearLayout>

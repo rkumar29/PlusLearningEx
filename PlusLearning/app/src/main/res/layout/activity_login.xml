@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#333333"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:weightSum="10"
+    tools:context=".login.LoginActivity">
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="4"
+        android:src="@drawable/logo_plus_learning"
+        android:contentDescription="@string/plus_learning_logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_username"
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="@android:color/holo_green_dark"
+            android:hint="@string/user_name"
+            android:text="example@gmail.com"
+            android:textColor="@android:color/holo_green_dark"
+            android:textColorHint="@android:color/holo_green_dark"
+            android:textSize="16sp"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize"
+            android:layout_marginBottom="8dp"
+            android:text="keshav"
+            android:textColor="@android:color/holo_green_dark"
+            android:backgroundTint="@android:color/holo_green_dark"
+            android:hint="@string/password"
+            android:textColorHint="@android:color/holo_green_dark"
+            android:textSize="16sp"
+            android:inputType="textPassword"
+            android:lines="1"/>
+
+        <TextView
+            android:id="@+id/tv_forget_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/forget_pass_please"
+            android:textColor="@color/blue"
+            android:textSize="13sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/login_button"
+        android:text="@string/log_in"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

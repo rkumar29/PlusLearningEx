@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gainsboro"
+    android:scrollbars="none"
+    android:overScrollMode="always"
+    tools:context=".time_table.TimeTableFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:id="@+id/ll_main_layout_time_table"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:gravity="center"
+                android:padding="@dimen/margin_8"
+                android:text="@string/class_8th"
+                android:textSize="12sp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/light_gray"/>
+
+            <Spinner
+                android:id="@+id/spinner_week"
+                style="@android:style/Widget.Spinner"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:entries="@array/select_week"
+                android:spinnerMode="dropdown" />
+
+        </LinearLayout>
+
+        <RadioButton
+            android:id="@+id/rb_mon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@android:color/holo_green_light"
+            android:layout_marginTop="@dimen/margin_8"
+            android:text="MONDAY  12/5/18" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="@dimen/margin_16"
+                android:layout_marginStart="@dimen/margin_16"
+                android:background="@android:color/holo_green_light" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_monday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_16"/>
+
+        </LinearLayout>
+
+        <RadioButton
+            android:id="@+id/rb_tues"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@android:color/holo_green_light"
+            android:text="TUESDAY  13/5/18" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="@dimen/margin_16"
+                android:layout_marginStart="@dimen/margin_16"
+                android:background="@android:color/holo_green_light" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_tuesday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_16"/>
+
+        </LinearLayout>
+
+        <RadioButton
+            android:id="@+id/rb_wed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@android:color/holo_green_light"
+            android:text="WEDNESDAY  14/5/18" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="@dimen/margin_16"
+                android:layout_marginStart="@dimen/margin_16"
+                android:background="@android:color/holo_green_light" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_wednesday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_16"/>
+
+        </LinearLayout>
+
+        <RadioButton
+            android:id="@+id/rb_thu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@android:color/holo_green_light"
+            android:text="THURSDAY  15/5/18" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="@dimen/margin_16"
+                android:layout_marginStart="@dimen/margin_16"
+                android:background="@android:color/holo_green_light" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_thursday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_16"/>
+
+        </LinearLayout>
+
+        <RadioButton
+            android:id="@+id/rb_fri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@android:color/holo_green_light"
+            android:text="FRIDAY  16/5/18" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="@dimen/margin_16"
+                android:layout_marginStart="@dimen/margin_16"
+                android:background="@android:color/holo_green_light" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_friday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_16"/>
+
+        </LinearLayout>
+
+        <RadioButton
+            android:id="@+id/rb_sat"
+            android:layout_width="match_parent"
+            android:buttonTint="@android:color/holo_green_light"
+            android:layout_height="wrap_content"
+            android:text="SATURDAY  17/5/18" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_8"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="@dimen/margin_16"
+                android:layout_marginStart="@dimen/margin_16"
+                android:background="@android:color/holo_green_light" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_saturday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_16"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

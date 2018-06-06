@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".profile.ProfileFragment">
+
+    <ImageView
+        android:id="@+id/iv_banner"
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/child" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-40dp"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/image_profile"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/bg"
+            app:civ_border_color="@color/black"
+            app:civ_border_width="2dp" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_edit_image_profile"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="16dp"
+            android:padding="2dp"
+            android:layout_marginStart="-24dp"
+            android:visibility="gone"
+            android:layout_marginTop="64dp"
+            android:src="@android:drawable/ic_menu_edit"
+            app:civ_border_color="@color/light_gray"
+            app:civ_border_overlay="true"
+            app:civ_border_width="1dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="56dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_course"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <!--   <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="48dp"
+           android:orientation="horizontal"
+           android:weightSum="5">
+
+           <TextView
+               android:layout_width="0dp"
+               android:layout_height="match_parent"
+               android:layout_weight="1.4"
+               android:background="@android:color/holo_green_light"
+               android:gravity="center"
+               android:text="@string/information"
+               android:textAllCaps="true"
+               android:textColor="@color/black"
+               android:textSize="13sp" />
+
+           <View
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_weight="1.4"
+               android:background="@drawable/shape_pgm" />
+
+           <TextView
+               android:layout_width="0dp"
+               android:layout_height="match_parent"
+               android:layout_weight="2.2"
+               android:background="@color/gainsboro"
+               android:gravity="center"
+               android:text="@string/parents_information"
+               android:textAllCaps="true"
+               android:textColor="@color/black"
+               android:textSize="13sp" />
+
+       </LinearLayout>-->
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?android:attr/actionBarSize"
+        app:tabGravity="fill"
+        android:background="@color/gainsboro"
+        app:tabMode="fixed"
+        app:tabSelectedTextColor="@color/green"
+        app:tabTextColor="#00000F" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

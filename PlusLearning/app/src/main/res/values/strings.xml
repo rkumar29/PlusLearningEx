@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Plus Learning</string>
+    <string-array name="select_week">
+        <item>Select Week</item>
+        <item>Week 1</item>
+        <item>Week 2</item>
+        <item>Week 3</item>
+        <item>Week 4</item>
+    </string-array>
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+
+    <string name="dummy_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</string>
+    <string name="dummy_text1">Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s.</string>
+    <string name="dummy_text2">when an unknown printer took a galley of type and scrambled it to make a type specimen book.</string>
+    <string name="dummy_text3">It has survived not only five centuries, but also the leap into electronic typesetting.</string>
+    <string name="dummy_text4">Remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset.</string>
+    <string name="dummy_text5">Sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+
+    <string name="demo_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="plus_learning_logo">Logo</string>
+    <string name="forget_pass_please">Forgot Password? Please Contact Administrator</string>
+    <string name="log_in">Log In</string>
+    <string name="profile">Profile</string>
+    <string name="notice_board">Notice Board</string>
+    <string name="faq">Faq</string>
+    <string name="referral">Referral</string>
+    <string name="generate_ticket">Generate Ticket</string>
+    <string name="class_8th">Class 8th</string>
+    <string name="information">Information</string>
+    <string name="parents_information">Parents Information</string>
+    <string name="address">address</string>
+    <string name="demo_address">6/521 B Saraswati Vihar Noida Sector 59</string>
+    <string name="contact_no">Contact No</string>
+    <string name="email_id">email id</string>
+    <string name="demo_mail">info89@gmail.com</string>
+    <string name="notify">Notify</string>
+    <string name="submit">Submit</string>
+    <string name="description_here">Description Here</string>
+    <string name="enter_your_title_here">Enter Your Title Here</string>
+    <string name="overall">Overall</string>
+    <string name="month">Month</string>
+    <string name="time_table">Time Table</string>
+    <string name="syllabus">Syllabus</string>
+    <string name="download">Download</string>
+    <string name="bus_location">Bus Location</string>
+    <string name="test_syllabus">Test Syllabus</string>
+    <string name="test_result">Test Result</string>
+    <string name="attendance">Attendance</string>
+    <string name="home">Home</string>
+    <string name="logout">Logout</string>
+
+    <string-array name="select_test_type">
+        <item>Weekly Test</item>
+        <item>Tri Monthly Test</item>
+        <item>Half Yearly Test</item>
+        <item>Pre Board Test</item>
+        <item>Annual Examination</item>
+    </string-array>
+    <string-array name="select_comp_type">
+        <item>JEE Main</item>
+        <item>JEE Adv</item>
+        <item>NEET</item>
+        <item>NTSE</item>
+    </string-array>
+
+    <string-array name="select_subject">
+        <item>Physics</item>
+        <item>Chemistry</item>
+        <item>Maths</item>
+        <item>Biology</item>
+    </string-array>
+
+</resources>
