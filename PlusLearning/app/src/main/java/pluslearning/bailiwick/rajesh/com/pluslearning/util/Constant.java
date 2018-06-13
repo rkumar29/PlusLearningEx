@@ -1,7 +1,7 @@
 package pluslearning.bailiwick.rajesh.com.pluslearning.util;
 
 public class Constant {
-    public  static final String BASE_URL = " http://bailiwicksolution.com/learning/wp-admin/admin-ajax.php";
+    public  static final String BASE_URL = " ";
 
     public  static final String ACTION_GET_TEST_TYPE ="get_test_type";
     public  static final String ACTION_GET_TEST_RESULT ="get_test_results";
