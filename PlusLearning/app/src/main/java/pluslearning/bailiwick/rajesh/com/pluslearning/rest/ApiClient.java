@@ -19,7 +19,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class ApiClient {
 
-    private static final String BASE_URL = "http://bailiwicksolution.com/learning/wp-admin/";
+    private static final String BASE_URL = "";
 
     private static Context ctx;
 
